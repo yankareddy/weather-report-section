@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-container {
+    background-image: linear-gradient(#b96fa1, #5a3f8c);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    overflow: auto;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1-head {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 26px;
+}
+
+.card-1-paragraph {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 17px;
+}
+
+.card-1-paragraph-1 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.card-1-image {
+    height: 120px;
+    width: 120px;
+    margin-left: 10px;
+}
+
+.card-2 {
+    background-color: #ffffff20;
+    background-size: cover;
+    width: 100%;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.card-2-image {
+    height: 50px;
+    width: 50px;
+}
+
+.card-2-sub {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #ffffff20;
+    border-radius: 0px;
+}
+
+@media (min-width:900px) {
+    .card-1 {
+        justify-content: flex-start;
+    }
+
+    .card-2 {
+        background-color: transparent;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card-2-sub {
+        display: flex;
+        flex-direction: column;
+        border: 0px solid #ffffff20;
+    }
+}
